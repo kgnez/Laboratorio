@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+    background: white;
+}
+header{
+    display: flex;
+    min-height: 60px;
+    justify-content: space-between;
+    background: white;
+    align-items: center;
+    padding: 10px;
+}
+.arriba{
+    background: rgb(47, 47, 47);
+    min-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+    font-size: 15px;
+}
+.aizq{
+    text-decoration: none;
+    color: white;
+    padding-right: 14px;
+    padding-left: 30px;
+}
+.ader{
+    text-decoration: none;
+    color: white;
+    display: inline-flex;
+    justify-content: right;
+    align-items: center;
+    padding-left: 14px;
+    padding-right: 30px;
+}
+.img{
+    display: flex;
+    align-items: center;
+    padding-left: 1cm;
+}
+.logo img{
+    padding: 10px;
+}
+.imgt{
+    width: 100px;
+    height: 100px;
+}
+.g{
+    font-size: 30px;
+    color: black;
+}
+.button{
+    background-color: rgb(255, 35, 35);
+    color: white;
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.st{
+    text-decoration: none;
+    color: gray;
+    text-align: center;
+    padding-right: 1cm;
+    margin-top: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav a{
+    font-weight: 500;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: center;
+}
+nav a:hover{
+    color: skyblue;
+}
+.fondo{
+    background-image: url(imgfondo.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px;
+}
+.arribaimg{
+    font-size: 17px;
+    background: rgba(0, 0, 0, 0.700);
+    width: 1451px;
+    height: 20px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.aimg{
+    text-decoration: none;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.aimg:hover{
+    text-decoration: underline;
+}
+h1{
+    font-size: 55px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: white;
+    display: contents;
+    justify-content: last baseline;
+}
+p{
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.abajofondo{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(95, 93, 93);
+    font-size: 30px;
+}
+.b{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(95, 93, 93);
+    font-size: 15px;
+}
+.puntos{
+    display: flex;
+    justify-content: center;
+}
+.lol{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(95, 93, 93);
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.lmao{
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: skyblue;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.lmao:hover{
+    text-decoration: underline;
+}
+.imagenes3{
+    display: flex;
+    justify-content: space-around;
+    image-resolution: inherit;
+}
+.img22{
+    width: 400px;
+    height: 400px;
+    display: inline-flex;
+    justify-content: space-around;
+}
+.lados{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+h3{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(95, 93, 93);
+}
+.ultimo{
+    color: rgb(95, 93, 93);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ultimo2{
+    color:rgb(95, 93, 93);
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 18px;
+    padding: 18px;
+}
+.nombre{
+    display: flex;
+    justify-content: flex-end;
+    background: white;
+    padding-right: 30px;
+    color: blue
+}
